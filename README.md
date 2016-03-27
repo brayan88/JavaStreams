@@ -1,9 +1,4 @@
 import java.io.*;
-
-
-/**
- * Created by Admin on 26.3.2016 г..
- */
 public class _02_ALLCAPITALS {
     public static void main(String[] args) {
         try(

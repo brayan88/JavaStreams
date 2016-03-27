@@ -1,4 +1,3 @@
-import java.io.*;
 public class _02_ALLCAPITALS {
     public static void main(String[] args) {
         try(
@@ -10,7 +9,6 @@ public class _02_ALLCAPITALS {
             String newText;
             while ((str=reader.readLine())!=null){
                 writer.println(str.toUpperCase());
-
             }
         }
         catch (IOException ex){
